@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>7-HW Pheap Piseth</title>
+        <!-- css  -->
+        <link rel="stylesheet" href="style.css">
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+        <!-- fontawsome  -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    </head>
+    <body class="bg-light">
+
+        <main>
+            <div class="container my-4">
+                <div class="row ">
+                    <!-- ---- -->
+                    <div class="col-lg-4">
+                        <div class="col-8 rounded-4 bg-white p-3 w-100 d-block" >
+                            <h4> <i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Setting</h4>
+                            <div class="col-12 ">
+                                <ul class="navbar-nav pt-3">
+                                    <h6>Setting</h6>
+                                    <li class="py-1">
+                                        <a class="nav-link text-black" href="#"><i class="fa-solid fa-gear"></i> Group Informatoin</a>
+                                    </li>
+                                </ul>
+                                <ul class="navbar-nav pt-3">
+                                    <h6>Admin tool</h6>
+                                    <li class="pt-1">
+                                        <a class="nav-link text-black d-flex justify-content-between" href="#">
+                                            <p class="m-0"><i class="fa-solid fa-user-group"></i> Manage members </p>
+                                            <span class="text-bg-danger rounded-4 px-2"> 9+</span></a>
+                                    </li>
+                                    <li class="pt-1">
+                                        <a class="nav-link text-black" href="#"><i class="fa-regular fa-address-book"></i> Manage Contents</a>
+                                    </li class="pt-1">
+                                    <li class="pt-1">
+                                        <a class="nav-link text-black" href="#"><i class="fa-solid fa-circle-exclamation"></i> Reports</a>
+                                    </li>
+                                    <li class="pt-1">
+                                        <a class="nav-link text-black" href="#"><i class="fa-solid fa-chart-line"></i> Activity</a>
+                                    </li>
+                                </ul>
+                                <ul class="navbar-nav pt-3">
+                                    <h6>Group Removal</h6>
+                                    <li class="pt-1">
+                                        <a class="nav-link text-black" href="#"><i class="fa-regular fa-trash-can"></i> Delete Group</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <nav class="navbar navbar-dark ">
+                            <div class="container"">
+                                <a class="navbar-brand text-black fw-bold fs-1 " href="#">Setting</a>
+                                <button class="navbar-toggler bg-primary" type="button"
+                                    data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasDarkNavbar"
+                                    aria-controls="offcanvasDarkNavbar"
+                                    aria-label="Toggle navigation">
+                                    <span class=" navbar-toggler-icon"></span>
+                                </button>
+                                <div
+                                    class="offcanvas offcanvas-start "
+                                    tabindex="-1" id="offcanvasDarkNavbar"
+                                    aria-labelledby="offcanvasDarkNavbarLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title fs-2 fw-bold  ps-4 mb-0"
+                                            id="offcanvasDarkNavbarLabel"> <i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Setting</h5>
+                                        <button type="button"
+                                            class="btn-close btn-close-white"
+                                            data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div class="bg-white">
+                                            <div class="col-12 ps-4">
+                                                <ul class="navbar-nav pt-0">
+                                                    <h6>Setting</h6>
+                                                    <li class="pt-1">
+                                                        <a class="nav-link text-black" href="#"><i class="fa-solid fa-gear"></i> Group Informatoin</a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="navbar-nav pt-3">
+                                                    <h6>Admin tool</h6>
+                                                    <li class="pt-1">
+                                                        <a class="nav-link text-black d-flex justify-content-between" href="#">
+                                                            <p class="m-0"><i class="fa-solid fa-user-group"></i> Manage members </p>
+                                                            <span class="text-bg-danger rounded-4 px-2"> 9+</span></a>
+                                                    </li>
+                                                    <li class="pt-1">
+                                                        <a class="nav-link text-black" href="#"><i class="fa-regular fa-address-book"></i> Manage Contents</a>
+                                                    </li>
+                                                    <li class="pt-1">
+                                                        <a class="nav-link text-black" href="#"><i class="fa-solid fa-circle-exclamation"></i> Reports</a>
+                                                    </li>
+                                                    <li class="pt-1">
+                                                        <a class="nav-link text-black" href="#"><i class="fa-solid fa-chart-line"></i> Activity</a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="navbar-nav pt-3">
+                                                    <h6>Group Removal</h6>
+                                                    <li class="pt-1">
+                                                        <a class="nav-link text-black" href="#"><i class="fa-regular fa-trash-can"></i> Delete Group</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+
+                        <!-- <h4>Content</h4> -->
+                         <div class="card bg-white rounded-4 border-0">
+                            <div class="card-header bg-transparent py-2 fs-4 fw-bold">Manage Content</div>
+                            <div class="card-body ">
+                                <div class="card-img">
+                                    <div class="img">
+                                        <img src="img/empty-data.svg" alt="img">
+                                        <p class="text-black-50  text-center pt-3">No result found</p>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- functon  -->
+        <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
